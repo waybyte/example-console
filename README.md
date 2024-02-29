@@ -1,4 +1,4 @@
-# Logicrom SDK - Console API example
+# Logicrom OpenCPU SDK - Console API example
 
 ## How to build
 
