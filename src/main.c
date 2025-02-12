@@ -244,7 +244,7 @@ int main(int argc, char *argv[])
 	logicrom_init("/dev/ttyS0", urc_callback);
 
 	/* setup console authentication function */
-	cli_set_authfn(check_user_auth);
+	cli_init(check_user_auth);
 
 	printf("\n\nConsole Example\nType help to get list of commands available\n\n");
 
